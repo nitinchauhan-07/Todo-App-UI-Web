@@ -1,0 +1,250 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 1500px;
+    background-color: #F7F7F7;
+}
+
+
+.body-div{
+    height: 1000px;
+    width: auto;
+    border: 2px solid #7B7B7B29;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3% 5% 3% 5%;
+}
+
+
+
+.upper-container{
+    height: 65px;
+    width: auto;
+    position: relative;
+    /* border: 1px solid #7B7B7B29; */
+    border-bottom: 2px solid #7B7B7B29;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 20px #7B7B7B29;
+}
+
+#task{
+    color: #424242;
+    font-weight: bold;
+    font-size: 2.2rem;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 1%;
+    opacity: 0.8;
+}
+
+#list{
+    color: #00A5EC;
+    font-weight: bold;
+    font-size: 2.2rem;
+    position: absolute;
+    margin-left: 21% ;
+    margin-top: 1%;
+}
+
+
+
+
+.upper-container2{
+    height: 40px;
+    width: auto;
+    position: relative;
+    /* border: 1px solid black; */
+    margin-top: 3%;
+}
+
+#circle{
+    margin-left: 70%;
+    position: absolute;
+}
+
+#new-task{
+    margin-left: 74%;
+    position: absolute;
+    font-size: larger;   
+    margin-top: 0.8%;
+    opacity: 0.9;    
+}
+
+
+
+.card1{
+    height: 27%;
+    width: 22%;
+    border: 1px solid #EDEDED ;
+    background-color:#FFFFFF ;
+    margin-top: 3%;
+    margin-left: 15%;
+    border-radius: 10px; 
+    display: inline-block;  
+    position: relative;    
+}
+
+.div1{
+    height: 22%;
+    width: 92%;
+    color: #00A5EC;
+    font-size: 19px;
+    font-weight: 500;    
+    position: absolute;
+    padding-left: 8%;
+    border-bottom: 2px solid #EDEDED;
+}
+
+.div2{
+    height: 15%;
+    width: 100%;
+    color: #C2C2C2;    
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    text-decoration: 2px line-through solid #C2C2C2;
+    filter: grayscale(100%);
+}
+
+
+.div3{
+    height: 15%;
+    width: 100%;
+    color: #424242;   
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    opacity: 0.9;
+}    
+
+
+
+.card2{
+    height: 27%;
+    width: 22%;
+    border: 1px solid #EDEDED;
+    background-color:#FFFFFF ;
+    margin-top: 3%;
+    margin-left: 1%; 
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}    
+
+
+
+.card3{
+    height: 27%;
+    width: 22%;
+    border: 1px solid #EDEDED ;
+    background-color:#FFFFFF ;
+    margin-top: 3%;
+    margin-left: 1%; 
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.card4{
+    height: 27%;
+    width: 22%;
+    border: 1px solid #EDEDED;
+    background-color:#FFFFFF ;
+    margin-top: 1%;
+    margin-left: 15%; 
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.card5{
+    height: 27%;
+    width: 22%;
+    border: 1px solid #EDEDED ;
+    background-color:#FFFFFF ;
+    margin-top: 1%;
+    margin-left: 1%; 
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;   
+}
+
+
+
+.notshow{
+    filter: blur(6px); 
+    -webkit-filter: blur(6px);
+    /* opacity: 0.4; */
+}
+
+
+
+.pop-up{
+    height: 29%;
+    width: 29%;
+    background-color:#FFFFFF ;
+    border: 1px solid #67676729;
+    position: absolute;
+    top: 29%;
+    left: 35%;
+    border-radius: 10px;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.top-div{
+    height: 24%;
+    width: 100%;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid #EDEDED; 
+    position: relative;   
+}
+
+#add{
+    /* border: 1px solid red; */
+    font-size: large;
+    position: absolute;
+    left: 4%;
+    top: 27%; 
+    opacity: 0.9;       
+}
+
+#close-icon{
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 92%;
+    top: 20%;
+    opacity: 0.5;
+}
+
+
+.text-area{
+   height: 11%;
+   width: 86%;
+   background-color: #F7F7F7;
+   color: #858585; 
+   margin-top: 6%;
+   margin-left: 5%;
+   border: 1px solid #EDEDED;
+   border-radius: 5px;
+   padding-top: 2%;
+   padding-left: 3%;
+}
+
+.button{
+    height: 18%;
+    width: 33%;
+    color: #FFFFFF;
+    background-color: #00A5EC;
+    border: none;
+    border-radius: 5px;
+    margin-top: 4%;
+    margin-left:62% ; 
+}
+
+
+
+
